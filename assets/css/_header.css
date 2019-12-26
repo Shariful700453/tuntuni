@@ -1,0 +1,239 @@
+
+.header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+.hdr-top{
+	background: #691729;
+}
+.hdr-top-inner{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.hdr-hotline,
+.hdr-search,
+.hdr-profile{
+	float: left;
+	width: 33.3333%;
+}
+.hdr-search{
+	text-align: center;
+}
+.hdr-profile{
+	text-align: right;
+}
+.hdr-hotline,
+.hdr-profile{
+	padding-top: 10px;
+}
+.hdr-hotline a{
+	display: inline-block;
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 400;
+}
+.hdr-hotline a:hover,
+.hdr-profile a:hover{
+	color: #CABB9F;
+}
+.hdr-hotline a i{
+	padding-right: 8px;
+}
+.hdr-search input[type=text]{
+	display: inline-block;
+	padding-left: 10px;
+	width: 300px;
+	height: 41px;
+}
+.hdr-search button{
+	padding: 10px 20px;
+	margin-left: -4px;
+}
+.hdr-profile li{
+	list-style: none;
+}
+.hdr-profile li a{
+	display: inline-block;
+	font-size: 20px;
+	color: #fff;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+.hdr-profile li.current-menu-item{
+	position: relative;
+}
+.hdr-profile li.current-menu-item ul.sub-menu{
+	position: absolute;
+	background: #691729;
+	color: #000;
+	width: 210px;
+	top: 30px;
+	right: -50px;
+	visibility: hidden;
+	z-index: 11;
+	padding-left: 0;
+	padding-bottom: 30px;
+}
+.hdr-profile li.current-menu-item:hover ul.sub-menu{
+	visibility: visible;
+}
+.hdr-profile li.current-menu-item ul.sub-menu li{
+	padding: 0;
+	padding-top: 20px;
+	display: block;
+	text-align: center;
+}
+.hdr-profile li.current-menu-item ul.sub-menu li a{
+	color: #fff;
+	font-size: 16px;
+	line-height: 21px;
+	text-transform: uppercase;
+}
+.hdr-profile li.current-menu-item ul.sub-menu li a:hover{
+	color: #C9BCA2;
+}
+
+.hdr-btm{
+	background: #C9BCA2;
+}
+
+.hdr-logo{
+	float: left;
+	width: 20%;
+}
+.hdr-menu{
+	float: right;
+	width: 80%;
+}
+.hdr-menu ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: right;
+}
+.hdr-menu ul li{
+	display: inline-block;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+}
+.hdr-menu ul li:last-child{
+	padding-right: 0;
+}
+.hdr-menu ul li a{
+	display: inline-block;
+	font-size: 25px;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 400;
+}
+.hdr-menu ul li a:hover{
+	color: #691729;
+}
+
+.hdr-menu ul li.current-menu-item-women{
+	position: relative;
+}
+.hdr-menu ul li.current-menu-item-women:after{
+	content: "\f107";
+	font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #691729;
+    font-size: 25px;
+    position: absolute;
+    top: 32px;
+    right: 0;
+}
+.hdr-menu ul li.current-menu-item-women:hover:after{
+	content: "\f106";
+}
+.hdr-menu ul li.current-menu-item-women ul.sub-menu{
+	position: absolute;
+	background: #691729;
+	color: #fff;
+	width: 200px !important;
+	top: 77px;
+    right: -25px;
+	z-index: 12;
+	padding-left: 0;
+	padding-bottom: 30px;
+	display: inline-block;
+	visibility: hidden;
+}
+.hdr-menu ul li.current-menu-item-women:hover ul.sub-menu{
+	visibility: visible;
+}
+.hdr-menu li.current-menu-item-women ul.sub-menu li{
+	padding: 0;
+	padding-top: 20px;
+	display: block;
+	text-align: center;
+}
+.hdr-menu li.current-menu-item-women ul.sub-menu li a{
+	color: #fff;
+	font-size: 16px;
+	line-height: 21px;
+	text-transform: uppercase;
+}
+.hdr-menu li.current-menu-item-women ul.sub-menu li a:hover{
+	color: #C9BCA2;
+}
+
+.hdr-menu li.current-menu-item-men{
+	position: relative;
+}
+.hdr-menu li.current-menu-item-men:after{
+	content: "\f107";
+	font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #691729;
+    font-size: 25px;
+    position: absolute;
+    top: 32px;
+    right: 0;
+}
+.hdr-menu li.current-menu-item-men:hover:after{
+	content: "\f106";
+}
+.hdr-menu ul li.current-menu-item-men ul.sub-menu-men{
+	position: absolute;
+	background: #691729;
+	color: #fff;
+	width: 150px !important;
+	top: 77px;
+    right: -25px;
+	z-index: 13;
+	padding-left: 0;
+	padding-bottom: 30px;
+	visibility: hidden;
+}
+.hdr-menu ul li.current-menu-item-men:hover ul.sub-menu-men{
+	visibility: visible;
+}
+.hdr-menu ul li.current-menu-item-men ul.sub-menu-men li{
+	padding: 0;
+	padding-top: 20px;
+	display: block;
+	text-align: center;
+}
+.hdr-menu ul li.current-menu-item-men ul.sub-menu-men li a{
+	color: #fff;
+	font-size: 16px;
+	line-height: 21px;
+	text-transform: uppercase;
+}
+.hdr-menu ul li.current-menu-item-men ul.sub-menu-men li a:hover{
+	color: #C9BCA2;
+}
+

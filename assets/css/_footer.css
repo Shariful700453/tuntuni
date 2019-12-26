@@ -1,0 +1,121 @@
+.footer-top{
+	padding-top: 50px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #691729;
+}
+.footer-logo a{
+	display: inline-block;
+}
+.footer-logo a img{
+	width: 100%;
+}
+.footer-menu ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.footer-menu ul li{
+	padding-bottom: 20px;
+}
+.footer-menu ul li a{
+	display: inline-block;
+	color: #691729;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 700;
+}
+.footer-menu ul li a:hover{
+	color: #C9BCA2;
+}
+
+.footer-socila-media ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.footer-socila-media ul li{
+	padding-bottom: 20px;
+}
+.footer-socila-media ul li a{
+	display: inline-block;
+	font-size: 30px;
+	color: #691729;
+}
+.footer-socila-media ul li a:hover{
+	color: #C9BCA2;
+}
+.footer-socila-media ul li a i{
+	display: inline-block;
+}
+
+
+
+.ftr-adr,
+.ftr-tel,
+.ftr-mail{
+	padding-bottom: 25px;
+}
+.ftr-adr a,
+.ftr-tel a{
+	display: inline-block;
+	padding-left: 30px;
+	font-size: 20px;
+	color: #691729;
+	text-transform: uppercase;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 500;
+}
+.ftr-mail a{
+	display: inline-block;
+	padding-left: 30px;
+	font-size: 20px;
+	color: #691729;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 500;
+	background: url('../images/mail.png');
+	background-repeat: no-repeat;
+	background-position: left 0px;
+	background-size: 20px 20px;
+}
+.ftr-adr a{
+	background: url('../images/place.png');
+	background-repeat: no-repeat;
+	background-position: left 0px;
+	background-size: 20px 20px;
+}
+.ftr-tel a{
+	background: url('../images/phone.png');
+	background-repeat: no-repeat;
+	background-position: left 0px;
+	background-size: 20px 20px;
+}
+
+
+
+
+.footer-bottom{
+	padding: 50px 0;
+}
+.ftr-btm-copywrite{
+	float: left;
+}
+.ftr-btm-design{
+	float: right;
+}
+.ftr-btm-copywrite p{
+	margin: 0;
+	display: inline-block;
+	font-size: 15px;
+	color: #000;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 400;
+}
+.ftr-btm-design a{
+	display: inline-block;
+	font-size: 15px;
+	color: #000;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 400;
+}
+
