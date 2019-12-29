@@ -1,0 +1,50 @@
+.ls-inner{
+	background: #691729;
+}
+.ls-title h2{
+	margin: 0;
+	padding-top: 70px;
+	font-size: 28px;
+	color: #fff;
+	padding-left: 35px;
+}
+.ls-form{
+	padding-left: 35px;
+	padding-bottom: 50px;
+}
+
+.ls-mail span,
+.ls-password span{
+	display: inline-block;
+	padding-bottom: 12px;
+	padding-top: 20px;
+	color: #fff;
+	font-size: 22px;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+
+.ls-mail input[type=text],
+.ls-password input[type=text]{
+	display: inline-block;
+	width: 700px;
+	height: 70px;
+	padding-left: 15px;
+	background: transparent;
+	border: 2px solid #fff;
+	border-radius: 10px;
+	color: #fff;
+	font-size: 25px;
+}
+
+
+.errormgs{
+	color: red;
+	font-size: 30px;
+	margin-top: 10px;
+	display: none;
+}
+.haserror .errormgs{
+	display: block;
+}
